@@ -1,0 +1,6 @@
+nested_students = [
+  ["Slickback", "Monk", "Asskicker"]
+  ["Aggadah", "Sorcerer/Bard", "One who dies"]
+  ["Firebeard", "Fighter", "Tank"]
+]
+
