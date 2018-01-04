@@ -19,13 +19,14 @@ music_library = [
 
 music_library.each do |artist_array|
   artist_array.each do |artist_element|
-    puts artist_element
-  end
-end
-
-if artist_element.class != Array
-  puts "Artist: #{artist_element}"
-else
-  artist_element.each do |album_element|
+    if artist_element.class != Array
+      puts "Artist: #{artist_element}"
+    else
+      artist_element.each do |album_element|
+        if album_element.class != array
+          puts "Album: #{album_element}"
+        else
+            album_element.each do |song_element|
+              puts "Song: #{song_element}"
   end
 end
