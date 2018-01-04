@@ -1,6 +1,7 @@
 nested_students = [
-  ["Slickback", "Monk", "Asskicker"]
-  ["Aggadah", "Sorcerer/Bard", "One who dies"]
-  ["Firebeard", "Fighter", "Tank"]]
+  ["Slickback", "Monk", "Asskicker"],
+  ["Aggadah", "Sorcerer/Bard", "One who dies"],
+  ["Firebeard", "Fighter", "Tank"]
+  ]
 
 puts nested_students [1] [2]
