@@ -3,3 +3,5 @@ nested_students = [
   ["Aggadah", "Sorcerer/Bard", "One who dies"]
   ["Firebeard", "Fighter", "Tank"]
 ]
+
+puts nested_student [1] [2]
