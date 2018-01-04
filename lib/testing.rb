@@ -28,5 +28,9 @@ music_library.each do |artist_array|
         else
             album_element.each do |song_element|
               puts "Song: #{song_element}"
+            end
+          end
+        end
+      end
+    end
   end
-end
