@@ -18,7 +18,6 @@ music_library = [
 ]
 
 music_library.each do |artist_array|
-
   artist_array.each do |artist_element|
   end
 end
