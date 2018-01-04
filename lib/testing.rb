@@ -28,3 +28,4 @@ if artist_element.class != array
 else
   artist_element.each do |song_element|
 end
+end
