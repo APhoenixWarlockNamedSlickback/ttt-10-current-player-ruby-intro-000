@@ -1,7 +1,18 @@
-nested_students = [
-  ["Slickback", "Monk", "Asskicker"],
-  ["Aggadah", "Sorcerer/Bard", "One who dies"],
-  ["Firebeard", "Fighter", "Tank"]
+music_library = [
+  ["Rush",
+    ["Moving Pictures",
+      ["Tom Sawyer", "Limelight", "YYZ"]
+    ],
+    ["Permanent Waves",
+      ["Spirit of the Radio", "Freewill"]
+    ],
+  ["Led Zeppelin",
+    ["Houses of the Holy",
+      ["Rain Song", "No Quarter"]
+    ["Led Zeppeling III",
+      ["Immigrant Song", "Tangerine"]
+    ]
   ]
+]
 
-puts nested_students [2]
+music_library.each do |artist_array|
