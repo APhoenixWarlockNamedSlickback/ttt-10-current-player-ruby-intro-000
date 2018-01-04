@@ -17,4 +17,4 @@ music_library = [
   ]
 ]
 
-puts music_library.each do |artist_array|
+music_library.each do |artist_array|
