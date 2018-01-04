@@ -26,6 +26,6 @@ end
 if artist_element.class != Array
   puts "Artist: #{artist_element}"
 else
-  artist_element.each do |song_element|
+  artist_element.each do |album_element|
   end
 end
