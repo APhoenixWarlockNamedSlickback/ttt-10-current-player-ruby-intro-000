@@ -15,5 +15,6 @@ music_library = [
       ["Immigrant Song", "Tangerine"]
     ]
   ]
+]
 
 puts music_library.each do |artist_array|
