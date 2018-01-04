@@ -23,7 +23,7 @@ music_library.each do |artist_array|
   end
 end
 
-if artist_element.class != array
+if artist_element.class != Array
   puts "Artist: #{artist_element}"
 else
   artist_element.each do |song_element|
