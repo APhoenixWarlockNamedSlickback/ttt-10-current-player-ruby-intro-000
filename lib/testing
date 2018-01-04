@@ -4,4 +4,4 @@ nested_students = [
   ["Firebeard", "Fighter", "Tank"]
 ]
 
-puts nested_student[1][2]
+puts nested_students[1][2]
