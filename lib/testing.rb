@@ -27,5 +27,5 @@ if artist_element.class != array
   puts "Artist: #{artist_element}"
 else
   artist_element.each do |song_element|
-end
+  end
 end
