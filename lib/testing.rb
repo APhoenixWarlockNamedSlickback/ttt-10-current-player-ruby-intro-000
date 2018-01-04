@@ -18,9 +18,9 @@ music_library = [
 ]
 
 music_library.each do |artist_array|
-end
 
-artist_array.each do |artist_element|
+  artist_array.each do |artist_element|
+  end
 end
 
 if artist_element.class != array
